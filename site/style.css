@@ -1,0 +1,99 @@
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+h1 {
+	margin: 20px;
+	text-align: center;
+}
+
+div.row {
+	justify-content: center;
+	position: relative;
+	width: 100%;
+	padding: 0px 20px;
+}
+
+div.columnContainer {
+	margin: 0;
+}
+
+div.column {
+	border: 1px solid black;
+	background: gray;
+	margin: 10px;
+	min-height: 15vh;
+}
+
+h2.chicken {
+	position: relative;
+	float: right;
+	background: pink;
+	border: 1px solid black;
+	margin: -1px;
+	top: 0px;
+	right: 0px;
+	padding: 2px 25px;
+	width: 140px;
+	text-align: center;
+}
+
+h2.beef {
+	position: relative;
+	float: right;
+	background: red;
+	border: 1px solid black;
+	margin: -1px;
+	top: 0px;
+	right: 0px;
+	padding: 2px 25px;
+	width: 140px;
+	text-align: center;
+}
+
+h2.sushi {
+	position: relative;
+	float: right;
+	background: yellow;
+	border: 1px solid black;
+	margin: -1px;
+	top: 0px;
+	right: 0px;
+	padding: 2px 25px;
+	width: 140px;
+	text-align: center;
+}
+
+p {
+	clear: right;
+	padding: 15px;
+}
+
+@media screen and (min-width: 992px) {
+	.col-lg-4 {
+		float: left;
+		width: 33.3%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.col-md-6 {
+		float: left;
+		width: 50%;
+	}
+	.col-md-12 {
+		float: left;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.col-sm-12 {
+		float: left;
+		width: 100%;
+	}
+}
